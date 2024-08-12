@@ -12,8 +12,13 @@ body {
 .container {
     background-color: #444;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 25%;
+    left: 50%;
+    top: 20%;
+   
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    
 }
 
 h1 {
@@ -27,7 +32,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -35,7 +40,7 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     background-color: #007bff;
     color: #fff;
@@ -52,4 +57,19 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     font-size: 1.2em;
+}
+#ageForm{
+    text-align: center;
+
+}
+
+#img {
+   
+    background-image: url('age.jpg');
+    background-size:cover; /* Adjust to fit the element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep the image in place */
+    
+   
 }
